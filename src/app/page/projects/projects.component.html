@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="grid-container">
+    <app-project
+      *ngFor="let record of projectsList"
+      [project]="record"
+    ></app-project>
+  </div>
+
+  <div class="comming-soon">------------<span>More coming soon</span>------------</div>
+</div>

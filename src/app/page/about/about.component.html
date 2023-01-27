@@ -1,0 +1,38 @@
+<div class="about-container">
+  <div class="pop" [class.active]="popUpStatus">
+    <app-popup></app-popup>
+  </div>
+  <figure class="about-container__img">
+    <img src="../../../assets/img/profile.jpg" alt="posible img" />
+  </figure>
+  <div class="about-container__content">
+    <h1>Leandro Gomez</h1>
+    <article>
+      <summary>
+        I am a Frontend Developer passionate about technology, programming and
+        illustration. I am a calm, peaceful person and I am highly passionate
+        about my work. I love music, especially jazz, and I enjoy developing new
+        skills and exploring new technological trends. I am a creative and
+        curious individual with a great passion for innovation.
+      </summary>
+    </article>
+    <div class="about-container__contact">
+      <div (click)="changeStatus()">
+        <i class="fa-sharp fa-solid fa-file-pdf"></i>
+      </div>
+      <div>
+        <a href="https://github.com/Legt14" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://www.linkedin.com/in/leandro-gomez-22aa0b1b5/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
