@@ -37,7 +37,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 1rem;
-
+  align-items: center;
 }
 
 .about-container__content h1 {
