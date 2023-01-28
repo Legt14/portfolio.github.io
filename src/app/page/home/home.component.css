@@ -27,11 +27,12 @@
 
 .name {
   white-space: nowrap;
-  border-right: 10px solid;
+  border-right: 10px solid var(--yellow);
   width: 33.8rem;
   animation:
     typing 5s steps(28, end) infinite alternate,
-    blink-caret .75s step-end infinite;
+    blink-caret 230ms step-end infinite;
+
   overflow: hidden;
 }
 
@@ -48,9 +49,8 @@
 
 @keyframes blink-caret {
 
-  from,
-  to {
-    border-color: transparent
+  from,to {
+    border-color: transparent;
   }
 
   50% {
@@ -61,8 +61,14 @@
 
 .stack {
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
-.stack i:hover{
+
+.stack i:hover {
   color: var(--yellow);
+}
+
+
+@media screen {
+
 }
