@@ -32,7 +32,7 @@
   border-right: 10px solid var(--yellow);
   width: 33.8rem;
   animation:
-    typing 5s steps(28, end) infinite alternate,
+    typing 4s steps(28, end) infinite alternate,
     blink-caret 230ms step-end infinite;
 
   overflow: hidden;

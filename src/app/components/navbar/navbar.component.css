@@ -51,3 +51,7 @@ a:hover::before {
   display: flex;
   gap: 3rem;
 }
+
+.active{
+  color: var(--yellow);
+}
