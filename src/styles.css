@@ -1,4 +1,5 @@
 @import url("./style/resetStyle.css");
+@import 'animate.css';
 
 :root {
   --yellow: #ffa31a;

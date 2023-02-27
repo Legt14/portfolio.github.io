@@ -1,11 +1,12 @@
 <section class="project-container">
   <div class="project-container__img-container">
-    <app-image [img_name]="project.name"></app-image>
+    <a target="_blank" href="https://legt14.github.io/{{ project.name }}">
+      <app-image [img_name]="project.name"></app-image>
+    </a>
   </div>
 
-
   <div class="project-container__info">
-    <h3>{{ project.name |  titlecase }}</h3>
+    <h3>{{ project.name | titlecase }}</h3>
     <article>
       <p>{{ project.description }}</p>
     </article>

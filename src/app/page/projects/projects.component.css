@@ -18,36 +18,8 @@
 }
 
 .comming-soon {
-  white-space: nowrap;
-  border-right: 10px solid;
-  max-width: 20.81rem;
-  animation:
-    typing 5s steps(70, end) infinite alternate-reverse,
-    blink-caret .75s step-end infinite;
-  overflow: hidden;
-}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-
-  to {
-    width: 100%
-  }
-}
-
-
-@keyframes blink-caret {
-
-  from,
-  to {
-    border-color: transparent
-  }
-
-  50% {
-    border-color: var(--yellow);
-  }
+  height:  20px;
+  width: 10rem;
 }
 
 

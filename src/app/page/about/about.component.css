@@ -44,6 +44,10 @@
   font-size: 3rem;
 }
 
+.about-container__content article {
+  text-align: center;
+}
+
 .about-container__contact {
   display: flex;
   gap: 1rem;
